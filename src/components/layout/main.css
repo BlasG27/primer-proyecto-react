@@ -1,0 +1,30 @@
+nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(159, 122, 239);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(127, 144, 255);
+    border-radius: 3px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em;
+    color: rgb(230, 210, 210)
+}
+
+li a:hover {
+    color: white;
+}
